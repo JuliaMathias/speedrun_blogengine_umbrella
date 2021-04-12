@@ -10,6 +10,11 @@ Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
 
 Ready to run in production? Please [check our deployment guides](https://hexdocs.pm/phoenix/deployment.html).
 
+## Commands
+ mix phx.new speedrun_blogengine --umbrella --no-webpack --no-html --no-dashboard --no-gettext --binary-id  
+ cd speedrun_blogengine_umbrella 
+ docker-compose up -d
+
 ## Learn more
 
   * Official website: https://www.phoenixframework.org/
