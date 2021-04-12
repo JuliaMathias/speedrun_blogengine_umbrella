@@ -9,3 +9,8 @@
 #
 # We recommend using the bang functions (`insert!`, `update!`
 # and so on) as they will fail if something goes wrong.
+
+SpeedrunBlogengine.Repo.insert!(%SpeedrunBlogengine.Authors.Schemas.Author [
+  name: "Capitão",
+  email: "capitao@gmail.com"
+])
