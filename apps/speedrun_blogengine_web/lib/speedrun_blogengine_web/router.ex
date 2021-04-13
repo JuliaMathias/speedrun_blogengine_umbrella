@@ -8,8 +8,7 @@ defmodule SpeedrunBlogengineWeb.Router do
   scope "/api", SpeedrunBlogengineWeb do
     pipe_through :api
 
-    get "/posts", PostController, :list
-    post "/posts", PostController, :create
-    get "/posts/:id", PostController, :show
+    # Criar um author
+    post "/authors", AuthorController, :create
   end
 end
